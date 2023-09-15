@@ -29,15 +29,15 @@ export default defineComponent({
                 :modules="modules"
                 class="mySwiper transition ease-in-out delay-200 hover:-translate-y-2 hover:scale-110 duration-700"
         >
-            <swiper-slide><img src="https://picsum.photos/id/322/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/356/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/436/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/765/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/571/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/225/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/567/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/443/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
-            <swiper-slide><img src="https://picsum.photos/id/667/600/900" class="rounded-lg relative"> <p class="mt-[350px] absolute text-red-800 text-5xl font-semibold">Hello world!</p></swiper-slide>
+            <swiper-slide><img src="../assets/images/rovenblog-default-096.jpg" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/356/600/900" class="rounded-lg relative bg-cover bg-center"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/436/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/765/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/571/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/225/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/567/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/443/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
+            <swiper-slide><img src="https://picsum.photos/id/667/600/900" class="rounded-lg relative"> <p class="mt-[400px] bg-slate-50 rounded-lg p-2 mr-[300px] absolute  text-4xl font-semibold">Cross country season kicks off at Lake Forest</p></swiper-slide>
         </swiper>
     </div>
 </template>

@@ -4,6 +4,14 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Swiper from "../components/Swiper.vue";
 import Newposts from "../components/Newposts.vue"
+import Posts from "../components/Posts.vue"
+import { useRouter } from "vue-router";
+const router = useRouter()
+const token = localStorage.getItem('token');
+if(!token){
+router.push("/login")
+} 
+
 </script>
 
 
@@ -11,6 +19,7 @@ import Newposts from "../components/Newposts.vue"
     <Header/>
     <Swiper/>
     <Newposts/>
+    <Posts/>
     <Footer/>
 </template>
 
